@@ -1,5 +1,5 @@
 .leftContainer {
-    background-color: aquamarine;
+    border: 1px solid grey;
     width: 27vw;
     height: 100vh;
     display: flex;
@@ -14,10 +14,9 @@
 }
 
 .userContainer {
-    background-color: blue;
     width: 100%;
     height: 16vh;
-    margin-bottom: 6vh;
+    margin-top: 60vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,10 +24,10 @@
 
 .userLogo {
     height: 60%;
+    margin-left: 1.5vw;
 }
 
 .userInfos {
-    background-color: blueviolet;
     width: 70%;
     height: 40%;
     margin-left: 4%;
@@ -48,5 +47,16 @@
     color: rgb(107, 107, 107);
     font-size: 2vh;
     font-weight: 200;
+}
 
+.logOutBtn {
+    width: 7vw;
+    height: 4vh;
+    background-color: #00acee ;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 2.2vh;
+    margin-left: 1.5vw;
+    margin-bottom: 4vh;
 }

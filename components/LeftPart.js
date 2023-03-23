@@ -1,6 +1,6 @@
 import styles from '../styles/LeftPart.module.css';
 
-function HomeCompo() {
+function LeftPart() {
     return (
       <div className={styles.leftContainer}>
         <img className={styles.twitterLogoSmall} src={'/logo-twitter.png'} alt='TwitterBackground'/>
@@ -12,8 +12,9 @@ function HomeCompo() {
                 <p className={styles.userName}>@JohnCena</p>
             </div>
         </div>
+        <button className={styles.logOutBtn}>Logout</button>
       </div>
     );
   }
   
-  export default HomeCompo;
+  export default LeftPart;
