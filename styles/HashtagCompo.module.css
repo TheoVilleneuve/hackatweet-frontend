@@ -1,0 +1,22 @@
+.pageContainer {
+    background-color: rgb(24, 24, 24);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .midSection {
+    width: 45vw;
+    height: 100vh;
+  }
+  
+  .tweetsContainer {
+    overflow: scroll;
+    height: 60vh;
+    border: 1px solid grey;
+  }
+  
+  .rightSection {
+    width: 28vw;
+  }

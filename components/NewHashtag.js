@@ -1,12 +1,12 @@
-import styles from '../styles/NewTweet.module.css';
+import styles from '../styles/NewHashtag.module.css';
 
-function NewTweet() {
+function NewHashtag() {
 
     return (
       <div className={styles.midContainer}>
-        <h1 className={styles.homeText}>Home</h1>
+        <h1 className={styles.hashtagText}>Hashtag</h1>
         <div className={styles.newTweetContainer}>
-            <input className={styles.newTweet} type="text" placeholder="What's up ?" id="newTweet"/>
+            <input className={styles.newTweet} type="text" placeholder="#Hashtag" id="hashtagName"/>
             <hr className={styles.hR}/>
             <div className={styles.counterTweet}>
                 <span className={styles.counter}>2/140</span>
@@ -18,4 +18,4 @@ function NewTweet() {
     );
   }
   
-  export default NewTweet;
+  export default NewHashtag;
