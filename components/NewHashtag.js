@@ -8,12 +8,7 @@ function NewHashtag() {
         <div className={styles.newTweetContainer}>
             <input className={styles.newTweet} type="text" placeholder="#Hashtag" id="hashtagName"/>
             <hr className={styles.hR}/>
-            <div className={styles.counterTweet}>
-                <span className={styles.counter}>2/140</span>
-                <button className={styles.tweetBtn}>Tweet</button>
-            </div>
-        </div>
-        
+        </div>    
       </div>
     );
   }
