@@ -8,15 +8,25 @@ import Trends from '../components/Trends';
 function HomeCompo() {
   return (
     <div className={styles.pageContainer}>
+
       <LeftPart/>
+
       <div className={styles.midSection}>
         <NewTweet/>
         <LastTweet/>
         <div className={styles.tweetsContainer}>
           <Tweet/>
+          <Tweet/>
+          <Tweet/>
+          <Tweet/>
+          <Tweet/>
+          <Tweet/>
+          <Tweet/>
         </div>
-      <Trends/>        
-      </div>
+      </div> 
+
+      <Trends/>      
+      
     </div>
   );
 }

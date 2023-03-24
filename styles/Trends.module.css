@@ -1,4 +1,17 @@
 .rightContainer {
-    background-color: aqua;
-    width: 25vw;
+    width: 28vw;
+    padding-left: 1.5vw;
+}
+
+.trendText {
+    color: white;
+    font-size: 4vh;
+    margin-right: 80%;
+    padding: 0;
+  }
+
+.hashtagsContainer {
+    width: 24vw;
+    height: 80vh;
+    overflow: scroll;
 }
