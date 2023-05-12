@@ -1,60 +1,53 @@
-.LastTweetContainer {
-    height: 17vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    border: 1px solid grey;
+@font-face {
+  font-family: "Mont";
+  src: url("/fonts/Mont-Heavy.otf");
 }
 
-.userContainer {
-    padding-top: 2vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+.container {
+  border: rgba(114, 131, 148, 0.455) solid;
+  border-width: 1px 0px 0px 0px;
+  padding: 20px;
 }
 
-.userLogo {
-    height: 3.5vh;
-    margin-left: 3vw;
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
 }
 
-.userInfos {
-    margin-left: 1vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.avatar {
+  border-radius: 50%;
 }
 
-.userFirstname {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 1.8vh;
-    font-weight: 700;
+.content {
+  margin: 0;
+  margin-left: 12px;
 }
 
-.userName {
-    margin: 0;
-    padding: 0;
-    color: rgb(107, 107, 107);
-    font-size: 1.5vh;
-    font-weight: 200;
+.like,
+.delete {
+  cursor: pointer;
 }
 
-.tweet {
-    color: white;
-    padding: 0;
-    margin: 2vh 0 1vh 0;
-    width: 90%;
+.like {
+  margin-right: 5px;
+  color: white;
 }
-.tweetLikeContainer {
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 38vw;
+
+.delete {
+  margin-left: 10px;
+  color: white;
+}
+
+.name {
+  font-family: "Mont";
+}
+
+.name,
+.greyText {
+  font-size: 15px;
+}
+
+.greyText {
+  color: rgb(114, 131, 148);
 }

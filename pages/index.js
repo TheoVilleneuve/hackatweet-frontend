@@ -1,11 +1,15 @@
-import Login from '../components/Login';
+import Head from 'next/head';
+import Home from '../components/Home';
 
 function Index() {
   return (
-    <div>
-    <Login/>
-    </div>
-  )
+    <>
+      <Head>
+        <title>Home / Hackatweet</title>
+      </Head>
+      <Home />
+    </>
+  );
 }
 
 export default Index;
